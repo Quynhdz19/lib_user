@@ -1,0 +1,28 @@
+.video-card {
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  background: #ffffff
+}
+
+.lesson-content {
+  text-decoration: none
+}
+.card-title {
+  padding-top: 10px;
+}
+
+
+.card-hover {
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-10px);
+  }
+  &:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+}
+.d-flex.display-none {
+  display: none !important;
+}
